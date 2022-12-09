@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: 1150px;
+  margin: auto;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1{
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar ul p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #AC1313;
+  cursor: pointer;
+}
+
+.navbar ul li{
+  list-style: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6C6C6C;
+  cursor: pointer;
+}
+
+.navbar ul span{
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
