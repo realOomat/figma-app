@@ -71,7 +71,6 @@ body{
   justify-content: space-between;
   row-gap: 30px;
 }
-
 .cards {
   text-align: center;
 }
@@ -113,4 +112,132 @@ body{
   letter-spacing: 2px;
   color: #AC1313;
   text-transform: uppercase;
+}
+
+.mid_text h2{
+  width: 491px;
+  height: 5px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+.mid_text p {
+  width: 421px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Libre Franklin";
+  padding-top: 15px;
+}
+
+.mid_text button {
+  width: 195px;
+  height: 62px;
+  background: #AC1313;
+  color: white;
+  border: 0;
+  margin-top: 50px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 121px;
+}
+
+.message p {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+  color: #D77474;
+  margin: 40px 0;
+}
+
+ .latest {
+  display: flex;
+  align-items: center;
+} 
+
+.latest h3 {
+  font-size: 40px;
+  font-weight: 400;
+  width: 246px;
+  height: 50px;
+  color: #000000;
+}
+
+.latest img {
+  width: 67px ;
+  height: 68px;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.message input{
+  width: 320px;
+  height: 44px;
+  border: 1px solid #EBEBEB;
+  color: #EBEBEB;
+  margin-top: 50px;
+}
+.message button {
+  width: 175px;
+  height: 45px;
+  color: white;
+  background-color: #000000;
+}
+
+.sign_up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_up p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+  font-family: "Lato";
+}
+
+footer {
+  margin-top: 50px;
+  background: rgba(219, 219, 219, 0.1);
+}
+
+.foot_banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pampeo h2 {
+  margin-top: 107px;
+  font-size: 33px;
+  font-weight: 400;
+  font-family: 'Pacifico';
+}
+
+.pampeo p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6C6C6C;
+}
+
+.requisites {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.powered_by {
+  margin-top: 30px;
+  background: gray;
+  text-align: center;
+  color: white;
+  padding: 20px;
 }
